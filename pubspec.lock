@@ -69,10 +69,10 @@ packages:
     dependency: transitive
     description:
       name: chewie
-      sha256: "745e81e84c6d7f3835f89f85bb49771c0a66099e4caf8f8e9e9a372bc66fb2c1"
+      sha256: "3427e469d7cc99536ac4fbaa069b3352c21760263e65ffb4f0e1c054af43a73e"
       url: "https://pub.dev"
     source: hosted
-    version: "1.5.0"
+    version: "1.7.4"
   clock:
     dependency: transitive
     description:
@@ -113,6 +113,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.5"
+  dbus:
+    dependency: transitive
+    description:
+      name: dbus
+      sha256: "365c771ac3b0e58845f39ec6deebc76e3276aa9922b0cc60840712094d9047ac"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.7.10"
   fake_async:
     dependency: transitive
     description:
@@ -125,10 +133,10 @@ packages:
     dependency: transitive
     description:
       name: ffi
-      sha256: d97fffd9d86f3dccc7a9059128b468a99320c69007cc9d41a3a1bda07d4e86dc
+      sha256: "7bf0adc28a23d395f19f3f1eb21dd7cfd1dd9f8e1c50051c069122e6853bc878"
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.0"
+    version: "2.1.0"
   file:
     dependency: transitive
     description:
@@ -373,6 +381,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.2"
+  package_info_plus:
+    dependency: transitive
+    description:
+      name: package_info_plus
+      sha256: "88bc797f44a94814f2213db1c9bd5badebafdfb8290ca9f78d4b9ee2a3db4d79"
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.0.1"
+  package_info_plus_platform_interface:
+    dependency: transitive
+    description:
+      name: package_info_plus_platform_interface
+      sha256: "9bc8ba46813a4cc42c66ab781470711781940780fd8beddd0c3da62506d3a6c6"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.1"
   path:
     dependency: transitive
     description:
@@ -433,10 +457,10 @@ packages:
     dependency: transitive
     description:
       name: path_provider_windows
-      sha256: "74056f334c58bd6db429ba93164e872a1996c8196b3132a100c40924b2672abf"
+      sha256: "1cb68ba4cd3a795033de62ba1b7b4564dace301f952de6bfb3cd91b202b6ee96"
       url: "https://pub.dev"
     source: hosted
-    version: "2.0.4"
+    version: "2.1.7"
   pedantic:
     dependency: transitive
     description:
@@ -789,43 +813,64 @@ packages:
   wakelock:
     dependency: "direct main"
     description:
-      name: wakelock
-      sha256: "769ecf42eb2d07128407b50cb93d7c10bd2ee48f0276ef0119db1d25cc2f87db"
-      url: "https://pub.dev"
-    source: hosted
+      path: wakelock
+      ref: HEAD
+      resolved-ref: a751f420e6baacdc6198e89bba583da7ec113d1d
+      url: "https://github.com/sasen98/wakelock"
+    source: git
     version: "0.6.2"
   wakelock_macos:
     dependency: transitive
     description:
-      name: wakelock_macos
-      sha256: "047c6be2f88cb6b76d02553bca5a3a3b95323b15d30867eca53a19a0a319d4cd"
-      url: "https://pub.dev"
-    source: hosted
+      path: wakelock_macos
+      ref: HEAD
+      resolved-ref: a751f420e6baacdc6198e89bba583da7ec113d1d
+      url: "https://github.com/sasen98/wakelock"
+    source: git
     version: "0.4.0"
   wakelock_platform_interface:
     dependency: transitive
     description:
-      name: wakelock_platform_interface
-      sha256: "1f4aeb81fb592b863da83d2d0f7b8196067451e4df91046c26b54a403f9de621"
+      path: wakelock_platform_interface
+      ref: HEAD
+      resolved-ref: a751f420e6baacdc6198e89bba583da7ec113d1d
+      url: "https://github.com/sasen98/wakelock"
+    source: git
+    version: "0.3.0"
+  wakelock_plus:
+    dependency: transitive
+    description:
+      name: wakelock_plus
+      sha256: f268ca2116db22e57577fb99d52515a24bdc1d570f12ac18bb762361d43b043d
       url: "https://pub.dev"
     source: hosted
-    version: "0.3.0"
+    version: "1.1.4"
+  wakelock_plus_platform_interface:
+    dependency: transitive
+    description:
+      name: wakelock_plus_platform_interface
+      sha256: "40fabed5da06caff0796dc638e1f07ee395fb18801fbff3255a2372db2d80385"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.0"
   wakelock_web:
     dependency: transitive
     description:
-      name: wakelock_web
-      sha256: "1b256b811ee3f0834888efddfe03da8d18d0819317f20f6193e2922b41a501b5"
-      url: "https://pub.dev"
-    source: hosted
+      path: wakelock_web
+      ref: HEAD
+      resolved-ref: a751f420e6baacdc6198e89bba583da7ec113d1d
+      url: "https://github.com/sasen98/wakelock"
+    source: git
     version: "0.4.0"
   wakelock_windows:
     dependency: transitive
     description:
-      name: wakelock_windows
-      sha256: "108b1b73711f1664ee462e73af34a9286ff496e27d4d8371e2fb4da8fde4cdac"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.2.0"
+      path: wakelock_windows
+      ref: HEAD
+      resolved-ref: a751f420e6baacdc6198e89bba583da7ec113d1d
+      url: "https://github.com/sasen98/wakelock"
+    source: git
+    version: "0.2.1"
   web:
     dependency: transitive
     description:
@@ -870,10 +915,10 @@ packages:
     dependency: transitive
     description:
       name: win32
-      sha256: c6a3f4e4058b70b46e27b2935de2d1562c50680e7fb44833911d981db73826c2
+      sha256: b0f37db61ba2f2e9b7a78a1caece0052564d1bc70668156cf3a29d676fe4e574
       url: "https://pub.dev"
     source: hosted
-    version: "2.0.0"
+    version: "5.1.1"
   xdg_directories:
     dependency: transitive
     description:

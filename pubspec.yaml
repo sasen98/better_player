@@ -15,11 +15,10 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.5
-  wakelock: ^0.6.2
-  # wakelock:
-  #   git:
-  #     url: https://github.com/sasen98/wakelock
-  #     path: wakelock
+  wakelock:
+    git:
+      url: https://github.com/sasen98/wakelock
+      path: wakelock
   meta: ^1.9.1
 
   flutter_widget_from_html: ^0.14.9
