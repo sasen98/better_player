@@ -19,6 +19,7 @@ dependencies:
     git:
       url: https://github.com/sasen98/wakelock
       path: wakelock
+      ref: gradle-upgrade
 
   meta: ^1.15.0
 
